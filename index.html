@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html >
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewpoint" content="width=device-width, initial-scale=1.0">
+        <title>Module2 Solution</title>
+        
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+        
+      <style>
+          *{
+    box-sizing: border-box;
+    margin:0%;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+.title{
+    float:right;
+    text-align: center;
+    margin-bottom: 5px;
+    height:25px;
+    width:80px;
+    border: 1px solid black;
+
+}
+.h1{
+    
+    text-align: center;
+    
+
+}
+.Chicken{
+    background-color: red;
+    color: black;
+}
+.Beef{
+    background-color: chartreuse;
+    color: black;
+}
+.Sushi{
+    background-color: blue;
+    color: black;
+
+}
+.Box{
+    width:100%;
+    height: 200px;
+    float: left;
+    margin: 10px;
+    border :1px solid olive;
+    background-color: palevioletred;
+
+}
+.row{
+    width:150%;
+}
+@media (min-width:992px){
+    .col-lg-4{
+        width:33.33%;
+    }
+}
+@media (min-width:768px) and (max-width:991px) {
+    .col-md-6 {
+        width:50%;
+    }
+    .col-md-12{
+        width:100%
+    }
+}
+@media(max-width:767px){
+    .col-sm-12{
+        width:100%
+    }
+}
+.Descp{
+    clear: both;
+    text-align: center;
+    
+}
+      </style>
+    </head>
+    <body>
+         <h1>Our Menu</h1>
+
+           <div class="row">
+              <div class="Box col-lg-4
+              col-md-6
+              col-sm-12">
+            <div class ="Chicken title">Chicken</div>
+            <div class ="Descp">ipsum dolor sit omet,consectetur adipisicing elit,
+                sed do eiusmod tempor incidunt ut labore et dolore magna aliqua.
+                   Ut enim ad minim veniam, 
+                   quis nostrud exercitation uilamco laboris nisi ut aliquip ex ea;</div>
+            
+            </div>
+     
+
+        <div class="Box col-lg-4 col-md-6 col-sm-12">
+         <p class ="Beef title">Beef</p>
+         <p class ="Descp">ipsum dolor sit omet,consectetur adipisicing elit,
+            sed do eiusmod tempor incidunt ut labore et dolore magna aliqua.
+               Ut enim ad minim veniam, 
+               quis nostrud exercitation uilamco laboris nisi ut aliquip ex ea;</p>
+        
+        </div>
+
+    <div class="Box col-lg-4 col-md-6 col-sm-12">
+        <p class ="Sushi title">Sushi</p>
+        <p class ="Descp">ipsum dolor sit omet,consectetur adipisicing elit,
+           sed do eiusmod tempor incidunt ut labore et dolore magna aliqua.
+              Ut enim ad minim veniam, 
+              quis nostrud exercitation uilamco laboris nisi ut aliquip ex ea,quis nostrud exercitation;</p>
+       
+        </div>
+           </div>
+           
+    </body>
+</html>
